@@ -1,13 +1,13 @@
 # GAINING ACCESS TO THE MATHNET TEST NETWORK FOR ZBANK
 
 ## About the BlockChain Network:
-The "mathnet" test network is a POA(proof of authority) blockchain network that has been constructed to show you how nodes interact on the blockchain, as well as how to send payments to nodes on the network. The two nodes currently on the network are node1 and node2 with the following credentials
+The "mathnet" test network is a POA(proof of authority) blockchain network that has been constructed to show you how nodes interact on the blockchain, as well as how to send payments to nodes on the network. The two nodes currently on the network are node1 and node2 with the following credentials:
 
 ### Node 1 Public Key: __0xFddAF50Df523aaBbeC1016B49a65Afd23dc28909__
 
 
 ###  Node 2 Public Key: __0x04A1a1C7a28e1aCb304A9f9E620446787d1577e8__
-![Tux, the Linux mascot](ScreenShots/node1_account.png)
+![Tux, the Linux mascot](ScreenShots/mathnet-setup.png)
 
 
 ## To start up the nodes, create TWO SEPARATE terminal windows and  execute each of the commands in only one terminal (GitBash for Windows users):
@@ -19,7 +19,7 @@ The "mathnet" test network is a POA(proof of authority) blockchain network that 
 ## Command 2:
 #### ./geth --datadir node2 --unlock "0x04A1a1C7a28e1aCb304A9f9E620446787d1577e8" --port 30308 --bootnodes "enode://c8c49f1ad52fb94abbcf85a9c84e4e5c46212b91014eed01d70775e3cc04661810a8497e4b47269b2d126da0ea2f91b8038b96b37d09bd50f6eacf6126fcd989@127.0.0.1:30307"
 
-## ***To avoid any issues with other applications using the 30303 and 30304 ports, nodes 1 and 2 have been set to run on ports 30307 and 30308 respectively***
+## ***ALERT: To avoid any issues with other applications using the 30303 and 30304 ports, nodes 1 and 2 have been set to run on ports 30307 and 30308 respectively***
 ## After you've successfully started the nodes on the mathnet test network, you should see an output that is similar to the following:
 ![Sample Printout of Nodes on mathnet testnet](ScreenShots/communication-of-nodes.png)
 
