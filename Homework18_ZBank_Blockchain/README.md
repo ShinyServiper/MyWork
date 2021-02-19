@@ -8,7 +8,7 @@ The "mathnet" test network is a POA(proof of authority) blockchain network that 
 
 ###  Node 2 Public Key: __0x04A1a1C7a28e1aCb304A9f9E620446787d1577e8__
 ![Tux, the Linux mascot](ScreenShots/mathnet-setup.png)
-
+## The network has a unique id (777) which has already been added to the "MyCrypto" application. The default blocktime, time to look for nodes on the network, is 15 sec.
 
 ## To start up the nodes, create TWO SEPARATE terminal windows and  execute each of the commands in only one terminal (GitBash for Windows users):
 
